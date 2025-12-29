@@ -14,6 +14,9 @@ public:
 	FText ItemName;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item Data")
+	FText itemType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item Data")
 	FText Description;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item Data")
